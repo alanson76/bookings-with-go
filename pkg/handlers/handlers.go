@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/alanson76/playground/web/02_firstApp/pkg/config"
-	"github.com/alanson76/playground/web/02_firstApp/pkg/models"
-	"github.com/alanson76/playground/web/02_firstApp/pkg/render"
+	"github.com/alanson76/playground/web/bookings-with-go/pkg/config"
+	"github.com/alanson76/playground/web/bookings-with-go/pkg/models"
+	"github.com/alanson76/playground/web/bookings-with-go/pkg/render"
 )
 
 // Repo the repository used by the handlers

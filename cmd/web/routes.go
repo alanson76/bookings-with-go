@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/alanson76/playground/web/02_firstApp/pkg/config"
-	"github.com/alanson76/playground/web/02_firstApp/pkg/handlers"
+	"github.com/alanson76/playground/web/bookings-with-go/pkg/config"
+	"github.com/alanson76/playground/web/bookings-with-go/pkg/handlers"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/v5/middleware"
 )
