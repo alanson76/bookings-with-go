@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/alanson76/playground/web/bookings-with-go/pkg/config"
-	"github.com/alanson76/playground/web/bookings-with-go/pkg/models"
+	"github.com/alanson76/bookings-with-go/pkg/config"
+	"github.com/alanson76/bookings-with-go/pkg/models"
 )
 
 // map functions to template

@@ -52,16 +52,8 @@ func main() {
 	// pass the app to render
 	render.NewTemplates(&app)
 
-	// routers
-	// http.HandleFunc("/", handlers.Repo.Home)
-	// http.HandleFunc("/about", handlers.Repo.About)
-
 	// run server
 	fmt.Println("Server is running on port ", portNumber)
-	// err = http.ListenAndServe(portNumber, nil)
-	// if err != nil {
-	// 	log.Fatalln(err)
-	// }
 
 	srv := &http.Server{
 		Addr:    portNumber,
